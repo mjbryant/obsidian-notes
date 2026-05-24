@@ -1,0 +1,1 @@
+`Debug > Show visible collision shapes` will help show the underlying areas

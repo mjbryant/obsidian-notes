@@ -14,6 +14,8 @@ Cross-platform (Mac + Linux) way to declare what tools should be available on a 
 ## Improvements
 <!-- Things that could be better. -->
 
+- Fix session logging: it's no longer working as expected — investigate what broke and restore correct behavior.
+
 ## Technical debt
 <!-- Code quality issues to address. -->
 

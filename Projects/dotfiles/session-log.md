@@ -2,6 +2,19 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
+## Session: 2026-05-24 17:05
+
+3 messages · 4m 22s
+
+**Goal:** session log notes aren't that interesting or useful.
+
+**Commits:**
+- Improve session-log entries: goal, commits, skip trivial
+
+**Files modified:**
+- `claude/obsidian/sync-session.sh`
+
+
 ## Session: 2026-05-24 17:01
 
 6 messages · 43s

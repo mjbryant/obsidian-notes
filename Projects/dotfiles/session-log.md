@@ -2,11 +2,14 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
-## Session: 2026-05-24 17:22 <!-- id:c5320bb1-2007-4383-84c7-77c4abdda22a -->
+## Session: 2026-05-24 17:23 <!-- id:c5320bb1-2007-4383-84c7-77c4abdda22a -->
 
-5 messages · 6m 52s
+6 messages · 7m 34s
 
 **Goal:** what are my ideas
+
+**Commits:**
+- Add /idea slash command for saving ideas to Obsidian
 
 **Files modified:**
 - `/Users/mbryant/Library/Mobile Documents/iCloud~md~obsidian/Documents/Michael/Projects/dotfiles/ideas.md`

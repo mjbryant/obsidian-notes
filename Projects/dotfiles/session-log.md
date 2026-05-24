@@ -15,6 +15,7 @@
 - `/Users/mbryant/Library/Mobile Documents/iCloud~md~obsidian/Documents/Michael/Projects/dotfiles/ideas.md`
 - `claude/.claude/commands/idea.md`
 - `setup-symlinks.sh`
+
 ## Session: 2026-05-24 17:14 <!-- id:fe2451e9-3275-4dfd-ac23-c4fb01ab14d9 -->
 
 4 messages · 13m 37s

@@ -8,6 +8,9 @@
 ## Feature ideas
 <!-- New features to add. -->
 
+### Machine bootstrapping
+Cross-platform (Mac + Linux) way to declare what tools should be available on a machine (e.g. `fzf`, `ripgrep`). Running a bootstrap script on a new machine installs everything. Should handle the case where package names differ between Homebrew and apt/dnf.
+
 ## Improvements
 <!-- Things that could be better. -->
 

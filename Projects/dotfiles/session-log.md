@@ -2,6 +2,16 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
+## Session: 2026-05-24 16:46
+
+26 messages · 7m 33s
+
+Done.
+
+**Files modified:**
+- `claude/obsidian/sync-session.sh`
+
+
 ## Session: 2026-05-24 16:45
 
 23 messages · 6m 38s

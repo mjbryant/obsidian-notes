@@ -2,6 +2,13 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
+## Session: 2026-05-24 17:01
+
+6 messages · 43s
+
+The core problem is clear: the "summary" pulls from `last_assistant_message`, which is whatever Claude said last — usually a brief "Done." or "Looks good." That's useless.
+
+
 ## Session: 2026-05-24 16:46
 
 26 messages · 7m 33s

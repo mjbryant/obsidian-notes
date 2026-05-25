@@ -14,7 +14,6 @@ Cross-platform (Mac + Linux) way to declare what tools should be available on a 
 ## Improvements
 <!-- Things that could be better. -->
 
-- Fix session logging: it's no longer working as expected — investigate what broke and restore correct behavior.
 - Improve session log goal capture: using the first user message doesn't reflect real usage — find a better heuristic (e.g. infer goal from the arc of the session, ask at session end, or use a summary model).
 - Use structured prefixes for session log entries, e.g. `[repo; type]` — the brackets improve scannability compared to plain text prefixes.
 

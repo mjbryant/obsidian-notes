@@ -15,7 +15,6 @@ Cross-platform (Mac + Linux) way to declare what tools should be available on a 
 <!-- Things that could be better. -->
 
 - Fix session logging: it's no longer working as expected — investigate what broke and restore correct behavior.
-- Allow read-only access to the Obsidian notes directory in non-privileged mode without prompting — add the vault path as an allowlisted read path in project settings so simple note reads (obsidian-resolve, Read) don't require user approval each time.
 
 ## Technical debt
 <!-- Code quality issues to address. -->

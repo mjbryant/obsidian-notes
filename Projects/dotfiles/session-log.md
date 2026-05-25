@@ -2,6 +2,19 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
+## Session: 2026-05-25 08:51 <!-- id:3c2764ca-1f00-4933-be04-633a95e8fc19 -->
+
+3 messages · 2m 32s
+
+**Goal:** what are my ideas
+
+**Files modified:**
+- `.claude/settings.local.json`
+- `/Users/mbryant/.claude/settings.json`
+- `claude/.claude/settings.json`
+- `/Users/mbryant/Library/Mobile Documents/iCloud~md~obsidian/Documents/Michael/Projects/dotfiles/ideas.md`
+
+
 ## Session: 2026-05-25 08:48 <!-- id:021d784c-e6cf-448c-9063-3c450399713e -->
 
 3 messages · 1m 14s

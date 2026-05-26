@@ -1,0 +1,1 @@
+Got Master's degree at Fresno State

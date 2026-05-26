@@ -1,0 +1,1 @@
+Little round key on key hook, opens fireproof safe

@@ -2,6 +2,19 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
+## Session: 2026-05-26 17:55 <!-- id:e7353171-86c3-4a24-b224-cca9172af159 -->
+
+3 messages · 8m 10s
+
+**Goal:** I'm struggling to understand an issue I know I'll have with this setup, hoping you can help me go through options to resolve it.
+
+**Commits:**
+- sync-session: sweep iCloud changes before session commit
+
+**Files modified:**
+- `claude/obsidian/sync-session.sh`
+
+
 ## Session: 2026-05-25 09:00 <!-- id:8aa0184c-d852-479d-8571-577a83f71fb8 -->
 
 4 messages · 2m 7s

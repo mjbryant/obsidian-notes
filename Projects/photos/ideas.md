@@ -6,15 +6,15 @@
      and Claude will read this file and get to work. -->
 
 ## Feature ideas
-<!-- New features to add. -->
+- make a periodic script that runs automatically that pings the supabase cluster in some way to keep it from getting archived
 
-- **True testing / QA setup**: Add a test environment with dedicated test photos, a separate Supabase instance (QA-like), and the ability to run the full app locally so new functionality can be developed and validated without touching real data. Likely involves a `.env.test` / `.env.local` override, a seeded R2-compatible local bucket (e.g. Minio or R2 dev), and a separate Supabase project or local `supabase start` stack.
+
 
 ## Improvements
 <!-- Things that could be better. -->
 
 ## Technical debt
-<!-- Code quality issues to address. -->
+- **True testing / QA setup**: Add a test environment with dedicated test photos, a separate Supabase instance (QA-like), and the ability to run the full app locally so new functionality can be developed and validated without touching real data. Likely involves a `.env.test` / `.env.local` override, a seeded R2-compatible local bucket (e.g. Minio or R2 dev), and a separate Supabase project or local `supabase start` stack.
 
 ## Experiments
 <!-- Things to try, spikes to run. -->

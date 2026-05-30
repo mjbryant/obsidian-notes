@@ -2,6 +2,8 @@
 
 ## Feature ideas
 <!-- New features to add. -->
+### idea inbox
+Figure out how to have a rambly input, probably voice, that ends up as an idea in a particular project
 
 ### Machine bootstrapping
 Cross-platform (Mac + Linux) way to declare what tools should be available on a machine (e.g. `fzf`, `ripgrep`). Running a bootstrap script on a new machine installs everything. Should handle the case where package names differ between Homebrew and apt/dnf.
@@ -16,4 +18,4 @@ Cross-platform (Mac + Linux) way to declare what tools should be available on a 
 <!-- Code quality issues to address. -->
 
 ## Experiments
-<!-- Things to try, s
+- set up a persistent coordinator agent always running, waiting for input and coordinating other tasks. Example things I want it to be able to do: receive a text from me and take an action, like start another agent to perform a coding task. I really want to be able to see what’s going on and initiate tasks from my phone. Is this just OpenClaw?

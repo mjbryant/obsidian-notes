@@ -16,4 +16,4 @@ Cross-platform (Mac + Linux) way to declare what tools should be available on a 
 <!-- Code quality issues to address. -->
 
 ## Experiments
-<!-- Things to try, spikes to run. -->
+<!-- Things to try, s

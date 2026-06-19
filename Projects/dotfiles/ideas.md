@@ -1,7 +1,17 @@
 # Ideas — dotfiles
 
 ## Feature ideas
-<!-- New features to add. -->
+### more structured work items
+The flow is something like:
+- Look at open work items somehow
+- Join some persistent session, have it spawn another session for a particular work item
+- That session figures out what the deliverables should be and starts work
+- Progress is tracked in a persistent way, potentially checked in somewhere
+- I can join the session to nudge it along if it gets stuck
+- When it’s done, it summarizes the deliverables and gives me the option to accept/reject. 
+- reject just keeps the session alive and it keeps going
+- Accept executes the deliverables, closes the work item, and shuts down the session
+
 ### idea inbox
 Figure out how to have a rambly input, probably voice, that ends up as an idea in a particular project
 

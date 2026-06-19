@@ -8,7 +8,8 @@ Recently set up Claude + Obsidian integration: scripts in `claude/obsidian/` pro
 
 ## Key notes
 - [[architecture]] — directory layout, what each config does, symlink manifest
-- [[ongoing]] — current work in progress
+- [[tasks]] — tracked work items (/task add, /task list, /task done)
+- [[ongoing]] — freeform notes, open questions
 - [[ideas]] — planned improvements
 - [[session-log]] — history of Claude Code sessions
 

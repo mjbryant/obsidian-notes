@@ -47,3 +47,12 @@ Couldn't save the recipe: <reason>. Raw content attached.
 ### 2026-06-20 — Session 1
 - Session started
 - Initial context written
+
+### 2026-06-20 — Session 2
+- Implemented `slack_ingest/writer.py` in full
+- Slug derived from `title` via regex (lowercase, non-alphanumeric runs → single hyphen, strip edges)
+- `id` field rewritten in frontmatter to match slug before writing
+- Conflict handling: same title → overwrite; different title → `-2`, `-3`, etc.
+- Atomic write via `.tmp` + `os.replace()`
+- `OBSIDIAN_RECIPES_PATH` env var with hardcoded fallback
+- Committed to worktree branch `worktree-agent-addaaca861156a05d`

@@ -32,7 +32,7 @@
 ---
 
 ## gentle-writer
-**Status:** open
+**Status:** in-progress
 **Created:** 2026-06-20
 **Description:** Build the file writer: slug generation, conflict detection, write formatted recipe to Obsidian notes path
 

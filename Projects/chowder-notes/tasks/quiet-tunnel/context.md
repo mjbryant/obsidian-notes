@@ -92,3 +92,11 @@ If `curl https://<tunnel-id>.cfargotunnel.com` returns a 502 when the local serv
 
 ### 2026-06-20 — Session 3
 - User confirmed: named tunnel + UUID URL, no custom domain. Skip Step 5 (DNS routing) entirely.
+
+### 2026-06-20 — Session 4
+- CORRECTION: `<uuid>.cfargotunnel.com` is NOT publicly DNS-resolvable without explicit DNS routing. It is Cloudflare's internal CNAME target, not a public endpoint. A domain is required.
+- Resolution: used a subdomain of an existing Cloudflare zone (`chowder.<existing-domain>`). Does not affect the other project.
+- Ran: `cloudflared tunnel route dns chowder-slack chowder.<existing-domain>`
+- Updated `~/.cloudflared/config.yml` to use Option A (with hostname) instead of Option B
+- Tunnel verified working: `curl https://chowder.<existing-domain>/` returns 502 (expected — server not running yet)
+- Task complete. Tunnel ID: `12d3a3d2-1ff0-4679-944d-bd080aa78f32`

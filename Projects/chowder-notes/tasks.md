@@ -11,8 +11,9 @@
 ---
 
 ## quiet-tunnel
-**Status:** in-progress
+**Status:** done
 **Created:** 2026-06-20
+**Closed:** 2026-06-20
 **Description:** Install cloudflared, create a named tunnel, register as a launchd daemon for persistent public URL
 
 ---

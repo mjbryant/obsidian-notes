@@ -20,22 +20,25 @@
 ---
 
 ## crisp-server
-**Status:** in-progress
+**Status:** done
 **Created:** 2026-06-20
+**Closed:** 2026-06-20
 **Description:** Build the local webhook server: Slack signature verification, input type detection, async response pattern, launchd plist
 
 ---
 
 ## amber-extract
-**Status:** in-progress
+**Status:** done
 **Created:** 2026-06-20
+**Closed:** 2026-06-20
 **Description:** Build the recipe extractor: URL mode (JSON-LD + Claude fallback), image mode (Claude vision), text mode (Claude)
 
 ---
 
 ## gentle-writer
-**Status:** in-progress
+**Status:** done
 **Created:** 2026-06-20
+**Closed:** 2026-06-20
 **Description:** Build the file writer: slug generation, conflict detection, write formatted recipe to Obsidian notes path
 
 ---

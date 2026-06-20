@@ -2,6 +2,17 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
+## Session: 2026-06-20 08:55 <!-- id:432c6371-9acb-40ec-989f-e6ec1e439f6e -->
+
+5 messages · 1m 11s
+
+**Goal:** <command-message>t</command-message> <command-name>/t</command-name> <command-args>list</command-args>
+
+**Files modified:**
+- `/Users/mbryant/.claude/settings.json`
+- `claude/.claude/settings.json`
+
+
 ## Session: 2026-06-20 08:54 <!-- id:a093df73-fecc-4ca1-8a74-f10b6fbec517 -->
 
 12 messages · 937m 44s

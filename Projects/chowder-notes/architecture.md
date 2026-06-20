@@ -31,7 +31,7 @@ These must be resolved before coding:
 - Data storage format (iCloud Drive markdown files? JSON? SQLite?)
 - Sync strategy between iPhone/iPad and Mac mini deployment
 - AI integration pattern (SDK choice, prompt versioning, model configuration)
-- Canonical recipe schema
+- ~~Canonical recipe schema~~ → resolved, see [[recipe-format]]
 
 ## Dependencies
 <!-- To be determined during architecture planning. -->

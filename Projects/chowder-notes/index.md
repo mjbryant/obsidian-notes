@@ -8,6 +8,7 @@ Project is at the design phase. `PROJECT_PLAN.md` captures the full vision and i
 
 ## Key notes
 - [[architecture]] — intended system design, layers, data models
+- [[recipe-format]] — canonical recipe file format (YAML frontmatter + Markdown body)
 - [[ongoing]] — current work in progress, open questions
 - [[ideas]] — planned features, future work
 - [[session-log]] — history of Claude Code sessions

@@ -25,7 +25,7 @@
 ---
 
 ## amber-extract
-**Status:** open
+**Status:** in-progress
 **Created:** 2026-06-20
 **Description:** Build the recipe extractor: URL mode (JSON-LD + Claude fallback), image mode (Claude vision), text mode (Claude)
 

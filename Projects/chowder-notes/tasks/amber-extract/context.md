@@ -47,3 +47,12 @@ The intelligence layer. Takes a raw input (URL, image bytes, or text) and return
 ### 2026-06-20 — Session 1
 - Session started
 - Initial context written
+
+### 2026-06-20 — Session 2
+- Implemented `slack_ingest/extractor.py` in full
+- URL mode: httpx fetch with browser User-Agent, JSON-LD Recipe detection via BeautifulSoup, fallback to stripped page text; both paths go through Claude for normalization
+- Image mode: HEIC detection via magic bytes at offset 4/8, conversion via pillow-heif + Pillow, vision API call for JPEG/PNG
+- Text mode: Claude extracts complete recipes or generates from descriptions; generated recipes get `generated: true` in frontmatter
+- Validation: splits on `---`, parses YAML; retries once with stricter prompt on failure; raises `ValueError` with raw output after two failures
+- Added `pillow`, `pillow-heif`, `PyYAML`, `beautifulsoup4`, `lxml` to `requirements.txt`
+- Committed to worktree branch `worktree-agent-a096dfbda9fae0b19`

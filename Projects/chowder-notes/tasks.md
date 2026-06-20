@@ -43,6 +43,13 @@
 
 ---
 
+## clean-boot
+**Status:** open
+**Created:** 2026-06-20
+**Description:** Install launchd daemons for cloudflared and the chowder server so both start on boot without manual intervention
+
+---
+
 ## copper-test
 **Status:** open
 **Created:** 2026-06-20

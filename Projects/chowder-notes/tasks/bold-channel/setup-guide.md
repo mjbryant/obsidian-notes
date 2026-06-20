@@ -50,6 +50,16 @@ Navigate to **Event Subscriptions** in the left sidebar.
    ```
    Slack will immediately send a `url_verification` challenge to this URL. Your server (`crisp-server`) must be running and must respond correctly for this field to save. See [[event-payloads]] for the exact challenge/response format.
 
+   **Start the server before entering this URL:**
+   ```bash
+   cd /Users/mbryant/bed/chowder
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   cp .env.example .env        # then fill in SLACK_SIGNING_SECRET and SLACK_BOT_TOKEN
+   uvicorn slack_ingest.server:app --host 127.0.0.1 --port 3000
+   ```
+
 3. Once the URL shows a green **Verified** checkmark, scroll down to **Subscribe to bot events**
 4. Click **Add Bot User Event** and add:
 

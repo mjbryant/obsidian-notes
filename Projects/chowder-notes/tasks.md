@@ -4,8 +4,9 @@
 <!-- Statuses: open | in-progress | done | cancelled -->
 
 ## bold-channel
-**Status:** in-progress
+**Status:** done
 **Created:** 2026-06-20
+**Closed:** 2026-06-20
 **Description:** Configure the Slack app in api.slack.com: bot scopes, event subscriptions URL, signing secret
 
 ---

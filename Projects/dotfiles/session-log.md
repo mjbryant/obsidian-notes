@@ -2,6 +2,18 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
+## Session: 2026-06-20 09:06 <!-- id:f129d70e-6a3f-40fa-83e9-d2136deda8cb -->
+
+5 messages · 3m 33s
+
+**Goal:** <command-message>t</command-message> <command-name>/t</command-name> <command-args>list</command-args>
+
+**Files modified:**
+- `/Users/mbryant/Library/Mobile Documents/iCloud~md~obsidian/Documents/Michael/Projects/dotfiles/tasks/bold-push/context.md`
+- `/Users/mbryant/Library/Mobile Documents/iCloud~md~obsidian/Documents/Michael/Projects/dotfiles/tasks.md`
+- `/Users/mbryant/Library/Mobile Documents/iCloud~md~obsidian/Documents/Michael/Projects/dotfiles/active-task`
+
+
 ## Session: 2026-06-20 09:01 <!-- id:4a6ed28d-805b-4389-8731-aed975b0c43b -->
 
 4 messages · 5m 48s

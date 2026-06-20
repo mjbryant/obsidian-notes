@@ -4,7 +4,7 @@
 <!-- Statuses: open | in-progress | done | cancelled -->
 
 ## bold-push
-**Status:** open
+**Status:** in-progress
 **Created:** 2026-06-19
 **Description:** push to remote
 

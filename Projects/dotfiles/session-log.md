@@ -2,6 +2,19 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
+## Session: 2026-06-20 09:01 <!-- id:4a6ed28d-805b-4389-8731-aed975b0c43b -->
+
+4 messages · 5m 48s
+
+**Goal:** <command-message>t</command-message> <command-name>/t</command-name> <command-args>list</command-args>
+
+**Commits:**
+- t: use Read/Write tools for active-task, make it project-local
+
+**Files modified:**
+- `claude/.claude/commands/t.md`
+
+
 ## Session: 2026-06-20 08:55 <!-- id:432c6371-9acb-40ec-989f-e6ec1e439f6e -->
 
 5 messages · 1m 11s

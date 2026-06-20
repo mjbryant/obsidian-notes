@@ -2,6 +2,18 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
+## Session: 2026-06-20 09:11 <!-- id:6071d210-e65c-41e4-b71b-57e8b7d407fe -->
+
+5 messages · 4m 28s
+
+**Goal:** \t list
+
+**Files modified:**
+- `/Users/mbryant/Library/Mobile Documents/iCloud~md~obsidian/Documents/Michael/Projects/dotfiles/tasks.md`
+- `claude/.claude/settings.json`
+- `/Users/mbryant/Library/Mobile Documents/iCloud~md~obsidian/Documents/Michael/Projects/dotfiles/active-task`
+
+
 ## Session: 2026-06-20 09:06 <!-- id:f129d70e-6a3f-40fa-83e9-d2136deda8cb -->
 
 6 messages · 3m 58s

@@ -4,14 +4,14 @@
 <!-- Statuses: open | in-progress | done | cancelled -->
 
 ## bold-channel
-**Status:** open
+**Status:** in-progress
 **Created:** 2026-06-20
 **Description:** Configure the Slack app in api.slack.com: bot scopes, event subscriptions URL, signing secret
 
 ---
 
 ## quiet-tunnel
-**Status:** open
+**Status:** in-progress
 **Created:** 2026-06-20
 **Description:** Install cloudflared, create a named tunnel, register as a launchd daemon for persistent public URL
 

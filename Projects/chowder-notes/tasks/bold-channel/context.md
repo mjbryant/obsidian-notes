@@ -34,3 +34,14 @@ This is external configuration work, not code. Do it at https://api.slack.com/ap
 ### 2026-06-20 — Session 1
 - Session started
 - Initial context written
+
+### 2026-06-20 — Session 2
+- Task marked in-progress
+- Resolved DM vs channel decision: **DM mode** (simpler, no channel membership, `message.im` event, `im:history` scope)
+- Produced `setup-guide.md`: step-by-step checklist for the Slack portal covering scopes, events, signing secret, app manifest option, and credential storage
+- Produced `event-payloads.md`: full JSON shapes for all four event types `crisp-server` will receive (URL text, image file, plain text, url_verification challenge)
+- Key gotcha documented: `files:read` scope alone does not grant file download access — files must be fetched via `files.info` API or the `url_private_download` field using the bot token as Bearer auth
+- Key gotcha documented: Slack sends `message_replied` subtypes and bot echoes; server must filter on `subtype` absence and `bot_id` absence
+- Key gotcha documented: URL verification challenge must respond within 3 seconds; file downloads should be deferred async
+- Scope `im:read` is needed (in addition to `im:history`) for the bot to enumerate DM channels — include it defensively
+- `reactions:write` noted as optional but useful for acknowledging receipt with an emoji before async processing completes

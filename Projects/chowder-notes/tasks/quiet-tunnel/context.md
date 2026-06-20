@@ -89,3 +89,6 @@ If `curl https://<tunnel-id>.cfargotunnel.com` returns a 502 when the local serv
 - Resolved: named tunnel without a domain produces a stable UUID URL — custom domain optional
 - Resolved: explicit `--config` flag needed in plist to point at user's home dir (not root's)
 - Outstanding: user must decide domain vs. no-domain before running Step 5 (DNS routing)
+
+### 2026-06-20 — Session 3
+- User confirmed: named tunnel + UUID URL, no custom domain. Skip Step 5 (DNS routing) entirely.

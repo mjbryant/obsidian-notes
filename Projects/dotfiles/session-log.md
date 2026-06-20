@@ -2,14 +2,19 @@
 
 <!-- Auto-updated by Claude Code stop hook at the end of each session.
 
-## Session: 2026-06-19 17:19 <!-- id:a093df73-fecc-4ca1-8a74-f10b6fbec517 -->
+## Session: 2026-06-20 08:53 <!-- id:a093df73-fecc-4ca1-8a74-f10b6fbec517 -->
 
-10 messages · 2m 42s
+11 messages · 937m 8s
 
 **Goal:** <command-message>task</command-message> <command-name>/task</command-name> <command-args>add "push to remote"</command-args>
 
+**Commits:**
+- Add task context system with /t start, note, stop
+
 **Files modified:**
 - `/Users/mbryant/Library/Mobile Documents/iCloud~md~obsidian/Documents/Michael/Projects/dotfiles/tasks.md`
+- `.claude/plans/task-context-system.md`
+- `claude/.claude/commands/t.md`
 ## Session: 2026-06-19 17:15 <!-- id:087bfc3b-b4a7-4b75-852f-18313c3eef06 -->
 
 8 messages · 1932m 20s

@@ -42,3 +42,12 @@ The core of the pipeline. A small HTTP server running permanently on the Mac Min
 ### 2026-06-20 — Session 1
 - Session started
 - Initial context written
+
+### 2026-06-20 — Session 2
+- Wrote `slack_ingest/` package at `/Users/mbryant/bed/chowder/slack_ingest/`
+- `server.py`: FastAPI app with `POST /slack/events` — signature verification, url_verification challenge, bot/subtype filtering, input type detection (image/url/text), immediate 200 + BackgroundTasks for async processing, 👀 reaction for immediate user feedback, error reporting via postMessage
+- `extractor.py`: stub raising NotImplementedError (amber-extract task)
+- `writer.py`: stub raising NotImplementedError (gentle-writer task)
+- `slack_ingest/launchd.plist`: informational plist for `~/Library/LaunchAgents/com.chowder.slack-ingest.plist`
+- `requirements.txt` and `.env.example` added at project root
+- Language/runtime decision: Python + FastAPI + uvicorn

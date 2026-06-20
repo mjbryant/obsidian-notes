@@ -18,7 +18,7 @@
 ---
 
 ## crisp-server
-**Status:** open
+**Status:** in-progress
 **Created:** 2026-06-20
 **Description:** Build the local webhook server: Slack signature verification, input type detection, async response pattern, launchd plist
 

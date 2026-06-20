@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  com.cloudflare.cloudflared.plist
+  ================================
+  LaunchDaemon plist for cloudflared tunnel service on macOS.
+
+  Installed location: /Library/LaunchDaemons/com.cloudflare.cloudflared.plist
+
+  `cloudflared service install` writes this file automatically, but this copy
+  is kept here so you can inspect it, understand what it does, and restore it
+  if needed without running the installer.
+
+  To install manually (instead of using `sudo cloudflared service install`):
+    1. Edit the cloudflared path below if your brew prefix differs
+       (check with: `which cloudflared`)
+    2. Copy to /Library/LaunchDaemons/:
+         sudo cp com.cloudflare.cloudflared.plist /Library/LaunchDaemons/
+         sudo chown root:wheel /Library/LaunchDaemons/com.cloudflare.cloudflared.plist
+         sudo chmod 644 /Library/LaunchDaemons/com.cloudflare.cloudflared.plist
+    3. Load it:
+         sudo launchctl load /Library/LaunchDaemons/com.cloudflare.cloudflared.plist
+    4. Start it:
+         sudo launchctl start com.cloudflare.cloudflared
+
+  Key launchd behaviors configured here:
+    - RunAtLoad: starts when the plist is loaded (i.e., at boot)
+    - KeepAlive: restarts if the process exits for any reason
+    - UserName root: runs as root (required for LaunchDaemon)
+    - StandardOutPath / StandardErrorPath: log files on disk
+
+  NOTE: The cloudflared binary path assumes the default Apple Silicon Homebrew
+  prefix (/opt/homebrew). On Intel Macs, Homebrew installs to /usr/local.
+  Check with `which cloudflared` and update the path if needed.
+-->
+<plist version="1.0">
+  <dict>
+
+    <!-- Service label — must match the filename -->
+    <key>Label</key>
+    <string>com.cloudflare.cloudflared</string>
+
+    <!--
+      The program to run and its arguments.
+      `tunnel run` starts the tunnel defined in ~/.cloudflared/config.yml.
+      No tunnel name argument is needed when config.yml specifies `tunnel:`.
+    -->
+    <key>ProgramArguments</key>
+    <array>
+      <!-- Update this path if cloudflared is not at the default Homebrew location -->
+      <!-- Apple Silicon (M1/M2/M3/M4): /opt/homebrew/bin/cloudflared -->
+      <!-- Intel Mac:                    /usr/local/bin/cloudflared -->
+      <string>/opt/homebrew/bin/cloudflared</string>
+      <string>--config</string>
+      <!-- Explicit config path avoids ambiguity about which user's home dir is used -->
+      <string>/Users/mbryant/.cloudflared/config.yml</string>
+      <string>tunnel</string>
+      <string>run</string>
+    </array>
+
+    <!-- Start when this plist is loaded (i.e., at system boot) -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!--
+      Keep the process alive if it exits for any reason.
+      cloudflared is designed to run forever; unexpected exits are bugs.
+    -->
+    <key>KeepAlive</key>
+    <true/>
+
+    <!--
+      Run as root. Required for LaunchDaemons (as opposed to LaunchAgents,
+      which run in the user's session). cloudflared itself does not need root
+      for its network operations, but launchd daemons must declare a user.
+    -->
+    <key>UserName</key>
+    <string>root</string>
+
+    <!-- Standard output and error go to log files -->
+    <key>StandardOutPath</key>
+    <string>/var/log/cloudflared.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/var/log/cloudflared.err</string>
+
+    <!--
+      Throttle restart attempts. If cloudflared exits and is restarted within
+      10 seconds, launchd will back off before trying again. Prevents a tight
+      crash loop from hammering the CPU if there's a config error.
+    -->
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+
+  </dict>
+</plist>

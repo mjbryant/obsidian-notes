@@ -16,13 +16,13 @@ tags:
 ingredients:
 - item: english cucumber
   amount: 1
-  unit: null
-  note: about 1 lb, smashed and cut into bite-sized pieces
+  unit: piece
+  note: about 1 lb, or 2–3 Persian cucumbers
   optional: false
 - item: kosher salt
   amount: 1
   unit: tsp
-  note: for salting the cucumbers
+  note: for salting cucumbers
   optional: false
 - item: garlic
   amount: 3
@@ -34,57 +34,57 @@ ingredients:
   unit: tsp
   note: grated
   optional: true
-- item: rice vinegar
-  amount: 2
-  unit: tbsp
-  note: null
-  optional: false
 - item: soy sauce
   amount: 1
   unit: tbsp
   note: use tamari for gluten-free
   optional: false
-- item: sesame oil
+- item: rice vinegar
   amount: 2
+  unit: tbsp
+  note: null
+  optional: false
+- item: toasted sesame oil
+  amount: 1
   unit: tsp
-  note: toasted
+  note: null
   optional: false
 - item: chili oil
   amount: 1
   unit: tbsp
-  note: adjust to taste
+  note: or to taste; can substitute red pepper flakes
   optional: false
 - item: sugar
   amount: 1
   unit: tsp
   note: null
   optional: false
-- item: fresh cilantro
-  amount: 2
-  unit: tbsp
-  note: roughly chopped
-  optional: true
-- item: scallion
-  amount: 2
-  unit: null
-  note: thinly sliced
-  optional: true
 - item: toasted sesame seed
   amount: 1
   unit: tsp
   note: for garnish
   optional: true
+- item: scallion
+  amount: 2
+  unit: piece
+  note: thinly sliced, for garnish
+  optional: true
+- item: fresh cilantro
+  amount: 3
+  unit: sprig
+  note: roughly chopped, for garnish
+  optional: true
 variations:
-- name: No Heat
+- name: Extra spicy
   substitutions:
   - from: chili oil
-    to: additional sesame oil
-- name: Gluten-Free
+    to: doubled chili oil plus 1/4 tsp cayenne
+- name: No heat
   substitutions:
-  - from: soy sauce
-    to: tamari
+  - from: chili oil
+    to: 1 additional tsp toasted sesame oil
 history:
-  added: 2026-06-20
+  added: 2026-06-26
   last_made: null
   times_made: 0
   rating: null
@@ -92,18 +92,19 @@ history:
 
 ## Instructions
 
-1. Place cucumbers on a cutting board. Lay the flat side of a cleaver or large knife on top and press firmly to smash them.
-2. Cut the smashed cucumbers into 1- to 1½-inch bite-sized pieces.
-3. Transfer cucumber pieces to a colander and toss with 1 tsp kosher salt. Let drain for 10 minutes.
-4. Pat the cucumbers dry with paper towels and transfer to a serving bowl.
-5. In a small bowl, whisk together the garlic, ginger, rice vinegar, soy sauce, sesame oil, chili oil, and sugar until the sugar dissolves.
-6. Pour the dressing over the cucumbers and toss to combine.
-7. Garnish with cilantro, scallion, and sesame seeds if using.
-8. Serve immediately or refrigerate for up to 30 minutes before serving.
+1. Place cucumbers on a cutting board. Lay the flat side of a large knife or cleaver on top and smash firmly with your fist to crack the cucumber open.
+2. Cut the smashed cucumber into rough 1-inch pieces on the diagonal.
+3. Transfer cucumber pieces to a colander set over a bowl. Toss with 1 tsp kosher salt.
+4. Let the salted cucumbers drain for 10 minutes.
+5. Combine soy sauce, rice vinegar, sesame oil, chili oil, sugar, and minced garlic in a small bowl. Whisk until sugar dissolves.
+6. Pat the drained cucumbers dry with paper towels and transfer to a serving bowl.
+7. Pour the dressing over the cucumbers and toss to coat evenly.
+8. Garnish with sesame seeds, sliced scallions, and cilantro. Serve immediately.
 
 ## Notes
 
-- Salting and draining the cucumbers removes excess water, keeping the salad crisp and preventing the dressing from becoming diluted.
-- English cucumbers work best, but Persian cucumbers are a great substitute — use 4 to 5.
-- The salad is best eaten the day it is made; cucumbers will continue to release liquid as they sit.
-- Adjust chili oil to your preferred heat level, or swap in a pinch of red pepper flakes.
+- Smashing rather than slicing creates craggy surfaces that absorb the dressing far better than smooth cuts.
+- Salt and drain the cucumbers to prevent a watery salad. Do not skip this step.
+- The dressed salad is best eaten right away; it will become watery if it sits too long.
+- For a make-ahead option, salt and drain the cucumbers up to a few hours in advance, then dress just before serving.
+- Chili oil brands vary significantly in heat — start with less and adjust to taste.

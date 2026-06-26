@@ -16,6 +16,7 @@ Each recipe is a single `.md` file: `recipes/<recipe-slug>.md`
 id: <string>          # kebab-case slug, matches filename
 title: <string>
 source: <string>      # URL, "original", or citation (e.g. "Marcella Hazan, Essentials...")
+image: <string | null> # path to preserved original photo, relative to recipes/ (e.g. "attachments/<slug>.jpg")
 servings: <int>
 prep_time: <int>      # minutes
 cook_time: <int>      # minutes
@@ -57,6 +58,10 @@ Optional. Tips, make-ahead info, scaling notes, wine pairings, etc.
 ```
 
 `## Instructions` is required. `## Notes` is optional. No other top-level sections.
+
+If a recipe has a preserved original photo (`image` frontmatter set), an Obsidian embed
+(`![[<slug>.<ext>]]`) may appear at the very top of the body, before `## Instructions`. This is
+not a section and does not count against the rule above.
 
 ## Unit vocabulary
 

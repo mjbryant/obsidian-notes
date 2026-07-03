@@ -4,7 +4,7 @@
 
 Chowder is organized as a pipeline with six layers:
 
-- **Input Layer** — Siri/App Intents (priority), conversational text, URL ingestion, image ingestion, structured editing
+- **Input Layer** — Siri/App Intents (priority, see [[siri-app-intents]]), conversational text, URL ingestion, image ingestion, structured editing
 - **Orchestrator** — central engine: interprets requests, maintains context, clarifies ambiguity, coordinates workflows, invokes AI models, manages state
 - **Recipe Engine** — meal generation, recipe normalization, metadata generation (prep/cook time, servings, tags), variation management
 - **Pantry Engine** — pantry assumptions, staple management (salt, oil, common spices), future inventory awareness

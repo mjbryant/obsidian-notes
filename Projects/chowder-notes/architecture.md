@@ -13,10 +13,19 @@ Chowder is organized as a pipeline with six layers:
 - **Storage Layer** — canonical household knowledge: recipes, preferences, pantry assumptions, meal history, household context
 
 ## Repository layout
-<!-- To be filled once scaffolded. -->
+Repo: `~/bed/chowder` (Python 3.14, `.venv`).
+- `chowder_core/` — shared recipe I/O (parse/serialize frontmatter, list/get, search). Single
+  source of truth for the on-disk [[recipe-format]]; imported by every service.
+- `slack_ingest/` — FastAPI service (port 3000) that ingests recipes from Slack (text/URL/image
+  → Claude extraction → Markdown). Runs via launchd behind the Cloudflare tunnel.
+- `webapp/` — API-first FastAPI service (port 3001) + React/Vite SPA (`webapp/frontend/`). The
+  recipe management **web frontend**; login via Cloudflare Access. See `webapp/README.md`.
+  The same `/api` will serve the future iOS app. v1 = read-only browse + search.
 
 ## Key files
-<!-- To be filled once scaffolded. -->
+- `chowder_core/recipes.py` — canonical recipe store (read + write helpers).
+- `webapp/server.py` — JSON API + static SPA serving; `webapp/auth.py` — CF Access identity.
+- `slack_ingest/writer.py` / `extractor.py` — ingest write path + Claude extraction.
 
 ## Patterns and conventions
 

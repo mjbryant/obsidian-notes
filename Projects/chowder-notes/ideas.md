@@ -15,6 +15,7 @@
 - **Fulfillment automation** — "Chowder, order everything" via grocery delivery APIs; cart generation; one-tap ordering
 - **Image input** — photograph a meal or ingredient label to import into Chowder
 - **Recipe URL ingestion** — paste any recipe URL; Chowder normalizes to canonical portable format
+- Programmatically download instagram videos recipes
 
 ## Improvements
 <!-- Things that could be better. -->

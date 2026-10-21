@@ -1,5 +1,7 @@
 # Many Chickens, Many Eggs — daily browser puzzle app
 
+Bootstrapped 2026-10-20: see [[many-chickens-many-eggs/index|the project notes]]. Repo: `/Users/mbryant/bed/many-chickens-many-eggs`.
+
 Wordle-style app/site. Once a day, AI generates a new HTML/CSS/JS puzzle to solve, seeded with example puzzles already in my head. Set time limit to solve; if time runs out, it reveals the answer/how to solve it.
 
 Core mechanic: app self-improves, targeting ~70% success rate — but uniformly distributed across puzzles, not 70% trivial + 30% impossible. Each individual puzzle should feel calibrated to roughly a 70% chance of success, sampled across instances, not just true in aggregate. Needs a generate -> track outcome -> adjust generation loop.
